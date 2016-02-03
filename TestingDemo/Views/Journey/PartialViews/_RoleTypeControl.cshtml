@@ -1,0 +1,16 @@
+﻿<fieldset id="roleTypeQuestion" data-bind="koValidation: {valid: roleTypeIsValid(), incomplete: !roleTypeIsValid()}">
+    <div class="form-group">
+        <label class="col-sm-2 control-label text-left"> Role: </label>
+        <div class="col-sm-6">
+            <label data-role="none" for="roleTypeStudent" id="roleTypeStudentLabel" class="role-type">
+                <input type="radio" name="roleType" id="roleTypeStudent" value="Student" data-bind="checked: roleType">
+                Student
+            </label>
+            <label data-role="none" for="roleTypeLecturer" id="roleTypeLecturerLabel">
+                <input type="radio" name="roleType" id="roleTypeLecturer" value="Lecturer" data-bind="checked: roleType">
+                Lecturer
+            </label>
+        </div>
+        <span class="tick-area"></span>
+    </div>
+</fieldset>

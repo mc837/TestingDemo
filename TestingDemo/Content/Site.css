@@ -1,0 +1,82 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.tick-area {
+    background: url('Images/validation.jpg') 0 0;
+    width: 30px;
+    height: 30px;
+    top: 17px;
+    float: right;
+    margin:2px 345px 0 0;
+    display: none;
+    cursor: default;
+}
+
+.valid .tick-area {
+    display: block;
+    background-position: 0 0;
+}
+
+.invalid .tick-area {
+    display: block;
+    background-position: -110px 0;
+}
+
+.invalid .dobDaySelect {
+    border: red 1px solid;
+}
+.invalid .dobMonthSelect {
+    border: red 1px solid;
+}
+.invalid .dobYearSelect {
+    border: red 1px solid;
+}
+.invalid .form-control {
+    border: red 1px solid;
+}
+
+.valid .dobDaySelect {
+    border: lime 1px solid;
+}
+.valid .dobMonthSelect {
+    border: lime 1px solid;
+}
+.valid .dobYearSelect {
+    border: lime 1px solid;
+}
+.valid .form-control {
+    border: lime 1px solid;
+}
+
+.error {
+    display: none;
+}
+.invalid .error {
+    display: block;
+}
+
+.role-type {
+        margin-top: 6px;
+}

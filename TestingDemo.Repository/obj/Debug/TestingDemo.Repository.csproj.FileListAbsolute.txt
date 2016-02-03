@@ -1,0 +1,13 @@
+C:\Dev\TestingDemo\TestingDemo.Repository\bin\Debug\TestingDemo.Repository.dll
+C:\Dev\TestingDemo\TestingDemo.Repository\bin\Debug\TestingDemo.Repository.pdb
+C:\Dev\TestingDemo\TestingDemo.Repository\bin\Debug\CuttingEdge.Conditions.dll
+C:\Dev\TestingDemo\TestingDemo.Repository\bin\Debug\MongoDB.Bson.dll
+C:\Dev\TestingDemo\TestingDemo.Repository\bin\Debug\MongoDB.Driver.dll
+C:\Dev\TestingDemo\TestingDemo.Repository\bin\Debug\TestingDemo.Models.dll
+C:\Dev\TestingDemo\TestingDemo.Repository\bin\Debug\TestingDemo.Models.pdb
+C:\Dev\TestingDemo\TestingDemo.Repository\bin\Debug\CuttingEdge.Conditions.xml
+C:\Dev\TestingDemo\TestingDemo.Repository\bin\Debug\MongoDB.Bson.xml
+C:\Dev\TestingDemo\TestingDemo.Repository\bin\Debug\MongoDB.Driver.xml
+C:\Dev\TestingDemo\TestingDemo.Repository\obj\Debug\TestingDemo.Repository.csprojResolveAssemblyReference.cache
+C:\Dev\TestingDemo\TestingDemo.Repository\obj\Debug\TestingDemo.Repository.dll
+C:\Dev\TestingDemo\TestingDemo.Repository\obj\Debug\TestingDemo.Repository.pdb

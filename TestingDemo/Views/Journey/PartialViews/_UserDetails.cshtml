@@ -1,0 +1,30 @@
+﻿<fieldset id="firstNameQuestion" data-bind="koValidation: { valid: firstNameIsValid(), invalid:!firstNameIsValid() && !firstNameIsEmpty(), incomplete:firstNameIsEmpty() }">
+    <div class="form-group">
+        <label for="firstName" class="col-sm-2 control-label text-left">First Name: </label>
+        <div class="col-sm-6">
+            <input class="form-control" type="text" name="firstName" id="firstName" data-bind="value:firstName" value="">
+        </div>
+
+        <span class="tick-area"></span>
+    </div>
+
+    <div class="error alert alert-danger">You seem to have entered too few or too many letters. Please enter a name made up from between 2 and 15 letters.</div>
+
+</fieldset>
+
+<fieldset id="surnameQuestion" data-bind="koValidation: { valid: surnameIsValid(), invalid:!surnameIsValid() && !surnameIsEmpty(), incomplete:surnameIsEmpty() }">
+    <div class="form-group">
+        <label for="surname" class="col-sm-2 control-label text-left">Surname: </label>
+        <div class="col-sm-6">
+            <input class="form-control" type="text" name="surname" id="surname" data-bind="value:surname" value="">
+        </div>
+
+        <span class="tick-area"></span>
+    </div>
+
+    <div class="error alert alert-danger">You seem to have entered too few or too many letters. Please enter a name made up from between 2 and 15 letters.</div>
+
+</fieldset>
+
+
+

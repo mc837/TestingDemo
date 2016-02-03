@@ -1,0 +1,5 @@
+C:\Dev\TestingDemo\TestingDemo.Common\bin\Debug\TestingDemo.Common.dll
+C:\Dev\TestingDemo\TestingDemo.Common\bin\Debug\TestingDemo.Common.pdb
+C:\Dev\TestingDemo\TestingDemo.Common\obj\Debug\TestingDemo.Common.csprojResolveAssemblyReference.cache
+C:\Dev\TestingDemo\TestingDemo.Common\obj\Debug\TestingDemo.Common.dll
+C:\Dev\TestingDemo\TestingDemo.Common\obj\Debug\TestingDemo.Common.pdb

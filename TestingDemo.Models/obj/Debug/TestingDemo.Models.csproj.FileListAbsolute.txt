@@ -1,0 +1,8 @@
+C:\Dev\TestingDemo\TestingDemo.Models\bin\Debug\TestingDemo.Models.dll
+C:\Dev\TestingDemo\TestingDemo.Models\bin\Debug\TestingDemo.Models.pdb
+C:\Dev\TestingDemo\TestingDemo.Models\bin\Debug\MongoDB.Bson.dll
+C:\Dev\TestingDemo\TestingDemo.Models\bin\Debug\MongoDB.Driver.dll
+C:\Dev\TestingDemo\TestingDemo.Models\bin\Debug\MongoDB.Bson.xml
+C:\Dev\TestingDemo\TestingDemo.Models\bin\Debug\MongoDB.Driver.xml
+C:\Dev\TestingDemo\TestingDemo.Models\obj\Debug\TestingDemo.Models.dll
+C:\Dev\TestingDemo\TestingDemo.Models\obj\Debug\TestingDemo.Models.pdb

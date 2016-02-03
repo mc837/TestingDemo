@@ -1,0 +1,10 @@
+﻿@using TestingDemo.Models.Enums
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<fieldset id="submitControl">
+    @Html.ActionLink("Add User", "AddUser", "Journey", null, new { @class = "btn btn-primary" })
+    @Html.ActionLink("View Students", "ViewUsers", "Journey", new {role = EducationRole.Student}, new { @class = "btn btn-primary" })
+@*    @Html.ActionLink("Add Lecturers", "ViewUsers", "Journey", EducationRole.Lecturer, new { @class = "btn btn-primary" })*@
+</fieldset>

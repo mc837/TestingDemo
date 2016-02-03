@@ -1,0 +1,16 @@
+﻿@model TestingDemo.Models.UserViewModel
+
+@{
+    ViewBag.Title = "AddUser";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="head-title">Add a new user</h2>
+
+@using (Html.BeginForm("AddNewUser", "Journey", FormMethod.Post, new { id = "submit-form", @class = "form-horizontal" }))
+{
+    @Html.Partial("PartialViews/_UserDetails", Model)
+    @Html.Partial("PartialViews/_DobControls", Model)
+    @Html.Partial("PartialViews/_RoleTypeControl", Model)
+    @Html.Partial("PartialViews/_SubmitControl", Model)
+}
